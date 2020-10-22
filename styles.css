@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+header, form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    min-height: 20vh;
+    font-size: 1.5rem;
+    color: magenta;
+}
+form{
+    flex-direction: column;
+}
+form input{
+    width: 50%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+form button{
+    color: white;
+    background-color: green;
+    width: 4rem;
+    height: 3rem;
+    padding: 0.5rem;
+    border: none;
+}
