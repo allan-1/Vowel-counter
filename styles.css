@@ -29,7 +29,7 @@ form button{
     color: white;
     background-color: green;
     width: 4rem;
-    height: 3rem;
     padding: 0.5rem;
     border: none;
+    cursor: pointer;
 }
